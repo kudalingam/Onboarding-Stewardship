@@ -1,0 +1,40 @@
+.link {
+  text-decoration: none;
+}
+.link1 {
+  text-decoration: none;
+  align-items: center;
+  color: #fff;
+}
+.read {
+  cursor: pointer;
+}
+.navbar {
+  height: 70px;
+}
+.learn {
+  height: calc(100vh - 70px) !important;
+  overflow: auto !important;
+}
+.learn-left {
+  height: calc(100vh - 70px) !important;
+  overflow: auto !important;
+}
+.learn-left > .card {
+  cursor: pointer;
+}
+.learn-right {
+  height: calc(100vh - 70px) !important;
+  overflow: auto !important;
+}
+.cursor {
+  cursor: pointer;
+}
+/* .sidebar {
+  color: #000;
+} */
+.sidebar:hover {
+  color: #fff;
+  background-color: rgba(0, 255, 255, 0.603) !important;
+  cursor: pointer;
+}

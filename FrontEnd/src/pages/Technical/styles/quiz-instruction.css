@@ -1,0 +1,93 @@
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+.valid {
+  color: #57b846;
+}
+
+.warning {
+  color: #ffa500 !important;
+}
+
+.invalid {
+  color: #ea4355 !important;
+}
+
+.toast-invalid {
+  background-color: #f44336 !important;
+  border-radius: 5px !important;
+  color: #f8f8f8 !important;
+}
+
+.toast-valid {
+  background-color: #4caf50 !important;
+  border-radius: 5px !important;
+  color: #f8f8f8 !important;
+}
+
+.disable {
+  background-color: #ccc !important;
+  box-shadow: none !important;
+  opacity: 0.9 !important;
+  pointer-events: none;
+}
+
+.instructions {
+  border: 1px solid #dfdfdf;
+  border-radius: 5px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 1.5rem 3rem;
+}
+.instructions h1 {
+  color: #333;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.instructions .lifeline {
+  position: relative;
+  top: -3px;
+}
+.instructions .lifeline-icon {
+  color: #57b846;
+  cursor: pointer;
+}
+.instructions .browser-default {
+  padding-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.instructions img {
+  width: 80%;
+  height: 50%;
+}
+@media (max-width: 2rem-breakpoint) {
+  .instructions img {
+    width: 100% !important;
+    height: 150% !important;
+  }
+}
+
+.button span {
+  border-radius: 30px;
+  cursor: pointer;
+  font-family: "Quicksand", sans-serif;
+  margin-right: 2rem;
+  padding: 0.5rem 1.5rem;
+}
+
+.button span:first-child {
+  background-color: #f75050;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.2s linear all;
+}
+
+.button span:nth-child(2) {
+  background-color: #2bad14;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.2s linear all;
+}

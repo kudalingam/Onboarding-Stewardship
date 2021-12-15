@@ -1,0 +1,50 @@
+.bgColor {
+  position: absolute;
+  height: 100vh;
+  width: 2000px;
+  bottom: 55%;
+  right: 48%;
+  transform: translateX(50%);
+  background-image: linear-gradient(-270deg, #4674b8 0%, #c45f9d 100%);
+  transition: 1.8s ease-in-out;
+  border-radius: 30%;
+  z-index: -6;
+}
+.parent-div {
+  position: relative;
+  overflow: hidden;
+}
+
+.card {
+  box-shadow: 15px 15px 28px 3px rgba(210, 197, 197, 0.52);
+  -webkit-box-shadow: 15px 15px 28px 3px rgba(210, 197, 197, 0.52);
+  -moz-box-shadow: 15px 15px 28px 3px rgba(210, 197, 197, 0.52);
+}
+.card1 {
+  box-shadow: 5px 5px 8px 1px rgba(210, 197, 197, 0.52);
+  -webkit-box-shadow: 5px 5px 8px 1px rgba(210, 197, 197, 0.52);
+  -moz-box-shadow: 5px 5px 8px 1px rgba(210, 197, 197, 0.52);
+}
+.icon {
+  color: #3c6cb6;
+  font-size: 40px;
+}
+.card-inside {
+  box-shadow: 25px 25px 28px 5px rgba(247, 247, 247, 0.856);
+  -webkit-box-shadow: 25px 25px 38px 5px rgba(231, 222, 222, 0.801);
+  -moz-box-shadow: 25px 25px 38px 5px rgba(235, 226, 226, 0.52);
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+.inside-scroll-bar::-webkit-scrollbar {
+  width: 2px;
+  background: transparent;
+}
+.inside-scroll-bar::-webkit-scrollbar-thumb {
+  background: #3c6cb6;
+}
+.cursor {
+  cursor: pointer;
+}
